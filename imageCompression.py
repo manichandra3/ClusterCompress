@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 from utils import *
 
 
-# UNQ_C1
-# GRADED FUNCTION: find_closest_centroids
-
 def find_closest_centroids(X, centroids):
     """
     Computes the centroid memberships for every example
@@ -58,9 +55,6 @@ from public_tests import *
 find_closest_centroids_test(find_closest_centroids)
 
 
-# UNQ_C2
-# GRADED FUNCTION: compute_centroids
-
 def compute_centroids(X, idx, K):
     """
     Returns the new centroids by computing the means of the
@@ -99,9 +93,6 @@ print("The centroids are:", centroids)
 
 # UNIT TEST
 compute_centroids_test(compute_centroids)
-
-
-# You do not need to implement anything for this part
 
 def run_kMeans(X, initial_centroids, max_iters=10, plot_progress=False):
     """
